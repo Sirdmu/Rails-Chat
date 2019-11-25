@@ -1,0 +1,23 @@
+current directory: /vagrant/src/rails-chat-tutorial/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+/home/vagrant/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191125-14152-1gprp3t.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/src/rails-chat-tutorial/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+make: Warning: File `Makefile' has modification time 0.029 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/src/rails-chat-tutorial/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU -I/home/vagrant/.rbenv/versions/2.5.3/include     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /vagrant/src/rails-chat-tutorial/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+make: Warning: File `bcrypt_ext.so' has modification time 0.046 s in the future
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20191125-14152-2aay0w
+make: warning:  Clock skew detected.  Your build may be incomplete.
