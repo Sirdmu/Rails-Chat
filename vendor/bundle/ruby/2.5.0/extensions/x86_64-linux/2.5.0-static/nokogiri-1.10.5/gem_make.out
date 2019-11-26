@@ -1,5 +1,5 @@
 current directory: /vagrant/src/rails-chat-tutorial/vendor/bundle/ruby/2.5.0/gems/nokogiri-1.10.5/ext/nokogiri
-/home/vagrant/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191125-5438-1068at3.rb extconf.rb
+/home/vagrant/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20191126-32049-eivokh.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.4.0
