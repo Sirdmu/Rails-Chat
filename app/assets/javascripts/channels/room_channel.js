@@ -16,8 +16,7 @@ $(function() {
           // if (data.link) {
           // } else {
             var content = messageTemplate.children().clone(true, true);
-            var img = $('<img class ="gif">');
-            img.attr('src', data.link);
+            var img = $(`<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="${data.link}" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>`)
             console.log(data.link)
             content.find('[data-role="user-avatar"]').attr('src', data.user_avatar_url);
             content.find('[data-role="message-text"]').text(data.message);
